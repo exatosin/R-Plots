@@ -45,7 +45,7 @@ p1 <- ggplot(data = data.frame(A = c(-2.5, 2.5)), aes(A)) +
 p1
 
 #save as pdf (with scale you change the thickness of lines, width=8.5cm is half a page width in the book)
-ggsave(filename = "./kurve1_v2.pdf",
+ggsave(filename = "./figur4.8.pdf",
       p1, width = 8.5, height = 7, units = "cm", scale = 1.5)
 
 

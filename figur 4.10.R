@@ -64,7 +64,7 @@ p1
 
 #save as pdf (with scale you change the thickness of lines,
 #width=8.5cm is half a page width in the book)
-ggsave(filename = "./kurve2_v2.pdf",
+ggsave(filename = "./figur4.10.pdf",
        p1, width = 8.5, height = 7, units = "cm", scale = 1.5)
 
 
